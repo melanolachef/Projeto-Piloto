@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_home.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <title>Loja de jogos</title>
+</head>
+
+<body>
+    <header id="header">
+        <a id="logo" href="./home.html"><img src="./img/loja_jogo.png" alt="Logo da loja"></a>
+        <nav id="nav">
+            <button aria-label="abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">
+                <span id="vegetal"></span>
+            </button>
+
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="./home.html">Home</a></li>
+                <li><a class="linkMenu" href="#">Sobre nós</a></li>
+                <li><a class="linkMenu" href="#">Produtos</a></li>
+                <li><a class="linkMenu" href="#">Contato</a></li>
+                <li><a class="linkMenu" href="#">Blog</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" data-bs-pause="true">
+        <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="./img/uncharted4.jpg" class="d-block w-100" alt="Imagem do Uncharted 4">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./img/fortnite.jfif" class="d-block w-100" alt="Imagem do Fortnite">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./img/lol.webp" class="d-block w-100" alt="Imagem do League of Legends">
+            </div>
+            <div class="carousel-item" data-bs-interval="500">
+                <img src="./img/bo6.jpg" class="d-block w-100" alt="Imagem do Call of Duty BO6">
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#carouselExampleInterval" type="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+</div>
+<!--Fim do carrosel  -->
+<div class="section-banner-home">
+    <div class="container-fluid">
+        <div class="row m-0">
+            <div class="col-12 col-md-6">
+                <figure>
+                    <img src="./img/fullsize_2019_01_09_10_Logo-251280_68710_105015761_974444289.jpg" alt="Logo">
+
+                </figure>
+            </div>
+            <div class="col-12 col-md-6">
+                <section class="text-banner d-none d-md-block">
+                    <h1>Conheça o lançamento dos jogos na loja</h1>
+                    <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                    <a href="#">Saiba mais!</a>
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="destaque">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <section class="col-12">
+                <h2>Coleções de Jogos</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit iure rem ab mollitia neque sint laboriosam deserunt itaque necessitatibus sed, incidunt inventore distinctio molestiae! Iste velit vel corrupti eum soluta?</p>
+            </section>
+            <div class="col-6 col-md-2 pr-0">
+                <figure>
+                    <a href="#"><img src="./img/bo6.jpg"
+                            alt="Call Of Duty 6"></a>
+                    <figcaption>Jogo novo<br>$700000</figcaption>
+                </figure>
+                <div class="col-6 col-md-2 pr-0">
+                    <div class="col-6 col-md-2 pr-0">
+                        <figure>
+                            <a href="#"><img src="./img/uncharted4.jpg"
+                                    alt="Uncharted 4"></a>
+                            <figcaption>Jogo novo<br>$1000000</figcaption>
+                        </figure>
+                        <div class="col-6 col-md-2 pr-0">
+                            <figure>
+                                <a href="#"><img src="./img/lol.webp"
+                                        alt="League of legends"></a>
+                                <figcaption>Jogo novo<br>$850000</figcaption>
+                            </figure>
+                            <div class="col-6 col-md-2 pr-0">
+                                <figure>
+                                    <a href="#"><img src="./img/fortnite.jfif"
+                                            alt="Fortnite"></a>
+                                    <figcaption>Jogo novo<br>$100000</figcaption>
+                                </figure>
+                            </div>
+                            <div class="col-12 d-flex justify-content-center">
+                                <a id="saiba-mais" href="#">Saiba mais!</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="novidades" id="novidades-mobile">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <section class="text-body">
+                                    <h2>Conheça as novidades</h2>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    <a class="btn-banner" href="#" target="_blank">Saiba mais</a>
+                                </section>
+                            </div>
+                            <div class="col-md-6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="whatsapp">
+                    <div class="container-grid logo-whats">
+                        <a href="#" target="_blank">
+                            <img class="pulse" src="./img/rede_social/whats.png" alt="Entre em contato via nosso canal do whatsapp">
+                        </a>
+                    </div>
+                </div>
+                <footer class="rodape">
+                    <div class="container">
+                        <div class="row m-0">
+                            <div class="col-md-4" id="logo-rodape">
+                                <figure>
+                                    <img src="./img/fullsize_2019_01_09_10_Logo-251280_68710_105015761_974444289.jpg" alt="logo">
+                                </figure>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="info-contato">
+                                    <p><strong>email:</strong></p>
+                                    <p>gatos@gatinhos.com</p><br>
+                                    <p><strong>endereco</strong></p>
+                                    <p>casa, 666</p><br>
+                                    <p><strong>Telefone:</strong></p>
+                                    <p>15886553636</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <figure class="redes-sociais">
+                                    <a href="http://www.facebook.com" target="_blank"><img src="./img/facebook_logo.png" alt="facebook"></a>
+                                    <a href="http://www.instagram.com" target="_blank"><img src="./img/insta_logo.png" alt="instagram"></a>
+                                    <a href="http://www.youtube.com" target="_blank"><img src="./img/youtube_logo.avif" alt="youtube"></a>  
+                                </figure>
+                                <br>
+                                <a class="linkFooter" href="#">home</a>
+                                <a class="linkFooter" href="#">quem somos</a>
+                                <a class="linkFooter" href="#">produtos</a>
+                                <a class="linkFooter" href="#">contato</a>
+                                <a class="linkFooter" href="#">blog</a>
+                            </div>
+                            <div class="col-12">
+                                <p class="direitos">todos os direitos reservados &copy; | Loja de carros | 2024 </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+                
+</body>
+
+<script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+</html>
